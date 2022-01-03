@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-
+import "./Details.css";
 const Details = () => {
   return (
     <div>
@@ -29,18 +29,28 @@ const Details = () => {
               {/* Techonology */}
               <div>
                 <div>
-                  <typography variant="h5">Technologies Covered</typography>
-                </div>
-                <div>
-                  <Box>
-                    <Grid container spacing={2}>
-                      <Grid md={2} lg={2}></Grid>
-                      <Grid md={2} lg={2}></Grid>
-                      <Grid md={2} lg={2}></Grid>
-                      <Grid md={2} lg={2}></Grid>
-                      <Grid md={2} lg={2}></Grid>
+                  <div>
+                    <Typography>Technologies Covered</Typography>
+                  </div>
+                  <div>
+                    <Grid sx={{ mt: 4 }} container spacing={1}>
+                      <Grid md={2} lg={2}>
+                        <div>1</div>
+                      </Grid>
+                      <Grid md={2} lg={2}>
+                        <div>2</div>
+                      </Grid>
+                      <Grid md={2} lg={2}>
+                        <div>3</div>
+                      </Grid>
+                      <Grid md={2} lg={2}>
+                        <div>4</div>
+                      </Grid>
+                      <Grid md={2} lg={2}>
+                        <div>5</div>
+                      </Grid>
                     </Grid>
-                  </Box>
+                  </div>
                 </div>
               </div>
             </Box>
