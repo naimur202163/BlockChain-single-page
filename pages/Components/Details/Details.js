@@ -1,6 +1,5 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import "./Details.css";
 const Details = () => {
   return (
     <div>
@@ -26,6 +25,7 @@ const Details = () => {
                   consequat sunt nostrud amet.
                 </p>
               </div>
+              <hr />
               {/* Techonology */}
               <div>
                 <div>
@@ -33,24 +33,49 @@ const Details = () => {
                     <Typography>Technologies Covered</Typography>
                   </div>
                   <div>
-                    <Grid sx={{ mt: 4 }} container spacing={1}>
+                    <Grid sx={{ mt: 4, ml: 1 }} container spacing={2}>
                       <Grid md={2} lg={2}>
-                        <div>1</div>
+                        <div className="box">
+                          <Typography sx={{ textAlign: "center" }}>
+                            C++
+                          </Typography>
+                        </div>
                       </Grid>
                       <Grid md={2} lg={2}>
-                        <div>2</div>
+                        <div className="box">
+                          <Typography sx={{ textAlign: "center" }}>
+                            C++
+                          </Typography>
+                        </div>
                       </Grid>
                       <Grid md={2} lg={2}>
-                        <div>3</div>
+                        <div className="box">
+                          <Typography sx={{ textAlign: "center" }}>
+                            C++
+                          </Typography>
+                        </div>
                       </Grid>
                       <Grid md={2} lg={2}>
-                        <div>4</div>
+                        <div className="box">
+                          <Typography sx={{ textAlign: "center" }}>
+                            C++
+                          </Typography>
+                        </div>
                       </Grid>
                       <Grid md={2} lg={2}>
-                        <div>5</div>
+                        <div className="box">
+                          <Typography sx={{ textAlign: "center" }}>
+                            C++
+                          </Typography>
+                        </div>
                       </Grid>
                     </Grid>
                   </div>
+                  {/* Mentor */}
+                  <br />
+                  <br />
+                  <hr />
+                  <div></div>
                 </div>
               </div>
             </Box>

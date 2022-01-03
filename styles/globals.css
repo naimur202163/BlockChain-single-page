@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+.box{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 50px;
+}
