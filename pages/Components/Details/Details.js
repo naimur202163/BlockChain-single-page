@@ -1,5 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import logo from "../../img/Image.png";
 const Details = () => {
   return (
     <div>
@@ -79,7 +80,31 @@ const Details = () => {
                     <Grid container spacing={1}>
                       <Grid md={6} lg={6}>
                         <Grid container spacing={1}>
-                          <Grid md={4} lg={4}></Grid>
+                          <Grid md={4} lg={4}>
+                            <div>
+                              <div>
+                                <Typography>Mentor</Typography>
+                              </div>
+                              <div>
+                                <div>
+                                  <img
+                                    src="https://i.ibb.co/R2fTGk4/Image.png"
+                                    alt=""
+                                  />
+                                </div>
+                                <div>
+                                  <Typography>
+                                    
+                                     
+                                      Dr. 
+                                  Anthony
+                                    <br />
+                                    M.Tech
+                                  </Typography>
+                                </div>
+                              </div>
+                            </div>
+                          </Grid>
                           <Grid md={4} lg={4}></Grid>
                           <Grid md={4} lg={4}></Grid>
                         </Grid>
