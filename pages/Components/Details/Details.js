@@ -77,15 +77,15 @@ const Details = () => {
                   <br />
                   <hr />
                   <div>
-                    <Grid container spacing={1}>
+                    <Grid sx={{ mt: 2 }} container spacing={1}>
                       <Grid md={6} lg={6}>
-                        <Grid container spacing={1}>
+                        <Grid container spacing={2}>
                           <Grid md={4} lg={4}>
                             <div>
                               <div>
                                 <Typography>Mentor</Typography>
                               </div>
-                              <div>
+                              <div style={{ display: "flex" }}>
                                 <div>
                                   <img
                                     src="https://i.ibb.co/R2fTGk4/Image.png"
@@ -94,10 +94,7 @@ const Details = () => {
                                 </div>
                                 <div>
                                   <Typography>
-                                    
-                                     
-                                      Dr. 
-                                  Anthony
+                                    Dr. Anthony
                                     <br />
                                     M.Tech
                                   </Typography>
@@ -105,11 +102,20 @@ const Details = () => {
                               </div>
                             </div>
                           </Grid>
-                          <Grid md={4} lg={4}></Grid>
-                          <Grid md={4} lg={4}></Grid>
+                          <Grid md={4} lg={4}>
+                            <div x={{ ml: 4 }}>
+                              <Typography>Difficulty Level</Typography>
+                            </div>
+                            <div></div>
+                          </Grid>
+                          <Grid md={4} lg={4}>
+                            <div>
+                              <Typography>Course Rating</Typography>
+                            </div>
+                            <div></div>
+                          </Grid>
                         </Grid>
                       </Grid>
-                      <Grid md={6} lg={6}></Grid>
                     </Grid>
                   </div>
                 </div>
