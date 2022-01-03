@@ -79,13 +79,9 @@ const Details = () => {
                     <Grid container spacing={1}>
                       <Grid md={6} lg={6}>
                         <Grid container spacing={1}>
-                          <Grid item xs={8}></Grid>
-                          <Grid item xs={4}>
-                            <Item>xs=4</Item>
-                          </Grid>
-                          <Grid item xs={4}>
-                            <Item>xs=4</Item>
-                          </Grid>
+                          <Grid md={4} lg={4}></Grid>
+                          <Grid md={4} lg={4}></Grid>
+                          <Grid md={4} lg={4}></Grid>
                         </Grid>
                       </Grid>
                       <Grid md={6} lg={6}></Grid>
