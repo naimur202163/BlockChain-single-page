@@ -77,7 +77,7 @@ const Details = () => {
                   <br />
                   <hr />
                   <div>
-                    <Grid sx={{ mt: 2 }} container spacing={1}>
+                    <Grid sx={{ mt: 2, ml: 2 }} container spacing={1}>
                       <Grid md={6} lg={6}>
                         <Grid container spacing={2}>
                           <Grid md={4} lg={4}>
@@ -85,16 +85,16 @@ const Details = () => {
                               <div>
                                 <Typography>Mentor</Typography>
                               </div>
-                              <div style={{ display: "flex" }}>
-                                <div>
+                              <div style={{ display: "flex", flexGap: "10px" }}>
+                                <div sx={{ mt: 1 }}>
                                   <img
                                     src="https://i.ibb.co/R2fTGk4/Image.png"
                                     alt=""
                                   />
                                 </div>
                                 <div>
-                                  <Typography>
-                                    Dr. Anthony
+                                  <Typography sx={{ ml: 2 }}>
+                                Anthony
                                     <br />
                                     M.Tech
                                   </Typography>
@@ -122,7 +122,11 @@ const Details = () => {
               </div>
             </Box>
           </Grid>
-          <Grid lg={8} md={8}></Grid>
+          <Grid lg={8} md={8}>
+                      <Box>
+                          
+            </Box>
+          </Grid>
         </Grid>
       </Container>
     </div>
