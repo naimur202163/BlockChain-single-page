@@ -94,7 +94,7 @@ const Details = () => {
                                 </div>
                                 <div>
                                   <Typography sx={{ ml: 2 }}>
-                                Anthony
+                                    Anthony
                                     <br />
                                     M.Tech
                                   </Typography>
@@ -122,9 +122,17 @@ const Details = () => {
               </div>
             </Box>
           </Grid>
-          <Grid lg={8} md={8}>
-                      <Box>
-                          
+          <Grid lg={4} md={4}>
+            <Box>
+              <div>
+                <img 
+                  style={{ height: "auto", width: "100%",marginLeft:"30px" }}
+                  src="https://i.ibb.co/gMrDY2J/Image.png"
+                  alt=""
+                />
+              </div>
+              <div><Typography>Free</Typography></div>
+              <div><Button sx={{ml:3}} style={{height:'50px' ,width:"100%"}} variant="contained"><h4>registar  now</h4></Button></div>
             </Box>
           </Grid>
         </Grid>
