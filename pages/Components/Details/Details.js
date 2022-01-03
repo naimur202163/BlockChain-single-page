@@ -3,6 +3,7 @@ import React from "react";
 import logo from "../../img/Image.png";
 import NetworkCellIcon from "@mui/icons-material/NetworkCell";
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
+import Link from "next/link";
 const Details = () => {
   return (
     <div>
@@ -11,7 +12,8 @@ const Details = () => {
           <Grid lg={8} md={8}>
             <Box>
               <div>
-                <Button variant="contained">&#8592;</Button>
+              <Button variant="contained">&#8592;</Button>
+               
               </div>
               {/* Heading Text */}
               <div>
